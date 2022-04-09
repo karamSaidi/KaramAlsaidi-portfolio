@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/karamportfolio.css">
+  <link rel="stylesheet" href="css/rtl.css">
+  <!-- fontawesom -->
+  <link rel="stylesheet" href="css/all.min.css">
+
+  <!-- google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;600;800&family=Open+Sans:wght@300;400;600&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,800;1,500&display=swap"
+    rel="stylesheet">
+
+  <title>كرم الصعيدي - الملف التعريفي</title>
+</head>
+
+<body>
+
+
+
+  <div class="app">
+
+    <button class="nav-bars" onclick="Buttontoggle();">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav" id="nav">
+
+      <img src="images/karam-square.jpg" alt="karam-avatar">
+      <h2>كرم الصعيدي</h2>
+
+      <ul class="social">
+        <li><a target="_blank"
+            href="https://www.google.com/url?q=https%3A%2F%2Fapi.whatsapp.com%2Fsend%2F%3Fphone%3D00972599907811%26text%26app_absent%3D0&sa=D&sntz=1&usg=AOvVaw3LHINkgf4khzIFbB3uVPQK"
+            class="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="mailto:karamalsaidi1021@gmail.com" class="mail"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank"
+            href="https://www.google.com/url?q=https%3A%2F%2Fwww.facebook.com%2F%25D8%25A7%25D9%2582%25D9%2588%25D9%2589-%25D8%25A7%25D9%2584%25D8%25B9%25D8%25B1%25D9%2588%25D8%25B6-104715445529619&sa=D&sntz=1&usg=AOvVaw3Q3QddqW729faKJrS2Ji1G"
+            class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+      </ul>
+
+      <ul class="language">
+        <li><a href="./index.html">English</a></li>
+        <li>عربي</li>
+      </ul>
+
+      <ul class="links">
+        <li><a onclick="activeChange(this);" class="link active" href="#home"><i class="fas fa-home"></i>الرئيسية</a>
+        </li>
+        <li><a onclick="activeChange(this);" class="link" href="#about"><i class="fas fa-user"></i>من أنا</a></li>
+        <li><a onclick="activeChange(this);" class="link" href="#portfolio"><i class="fas fa-list"></i>أعمالي</a>
+        </li>
+        <li><a onclick="activeChange(this);" class="link" href="#services"><i class="fas fa-server"></i>خدماتي</a>
+        </li>
+      </ul>
+
+
+    </nav>
+
+    <div class="container">
+      <!-- start home -->
+      <section class="home" id="home">
+        <div class="bg"></div>
+        <div class="intro-text">
+          <h1>كرم الصعيدي</h1>
+          <p>أنا <span class="typed" data-typed-items="مستقل, مطور ويب, مسوق الكتروني"></span></p>
+
+          <p>مهتمة في العمل معا</p>
+          <p>تواصل معي</p>
+
+        </div>
+      </section>
+      <!-- end home -->
+
+      <!-- start about -->
+      <section class="about" id="about">
+        <div class="bio">
+          <h2 class="head-title">من أنا</h2>
+          <p>
+            أنا مهندس كمبيوتر ، أعمل في تطوير الويب لأكثر من 5 سنوات عملت كمطور ويب للواجهة الأمامية في بداية مسيرتي
+            المهنية،
+            بعد ذلك بدأت العمل كمطور ويب خلفي باستخدام PHP، ثم استخدم Laravel إطار العمل.
+            أقوم بتطوير تطبيقات الويب من الصفر حسب رغبة العميل، وتتميز تطبيقاتي بسهولة الاستخدام والتصفح للزوار
+            <br>
+
+            وأعمل كمروج للإعلانات المدفوعة على وسائل التواصل الاجتماعي
+
+          </p>
+        </div>
+
+        <div class="skills">
+          <h2 class="head-title">مهاراتي</h2>
+          <div class="skills-content">
+            <div class="skill-box">
+              <span>HTML & HTML5</span>
+              <div class="progress">
+                <span data-progres="100%" style="width:100%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>css & css3</span>
+              <div class="progress">
+                <span data-progres="95%" style="width:95%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>javascript</span>
+              <div class="progress">
+                <span data-progres="90%" style="width:90%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>jquery</span>
+              <div class="progress">
+                <span data-progres="90%" style="width:90%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>php</span>
+              <div class="progress">
+                <span data-progres="85%" style="width:85%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>php laravel framework</span>
+              <div class="progress">
+                <span data-progres="85%" style="width:85%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>ASP (C#)</span>
+              <div class="progress">
+                <span data-progres="80%" style="width:80%"></span>
+              </div>
+            </div>
+            <div class="skill-box">
+              <span>Digital Marketer</span>
+              <div class="progress">
+                <span data-progres="75%" style="width:75%"></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- end about -->
+
+
+      <!-- start portfolio -->
+      <section class="portfolio" id="portfolio">
+        <h2 class="head-title">أعمالي</h2>
+
+        <div class="portfolio-content">
+
+          <div class="box">
+            <div class="image">
+              <img src="images/awael.jpg " alt="awael">
+            </div>
+            <div class="intro-text">
+              <h3>Awael Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/Nuno.jpg " alt="nuno">
+            </div>
+            <div class="intro-text">
+              <h3>Nuno Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/leon.jpg " alt="lion">
+            </div>
+            <div class="intro-text">
+              <h3>Leon Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/webcom.jpg " alt="webcom">
+            </div>
+            <div class="intro-text">
+              <h3>Awael Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/kasper.jpg " alt="kasper">
+            </div>
+            <div class="intro-text">
+              <h3>Kasper Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="image">
+              <img src="images/netflixify.jpg " alt="netflixify">
+            </div>
+            <div class="intro-text">
+              <h3>Netflixify Template</h3>
+              <p>تحويل التصميم إلى صفحات ويب ثابتة باستخدام HTML, CSS Javascript</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!-- end portfolio -->
+
+
+      <!-- start services -->
+      <section class="services" id="services">
+        <h2 class="head-title">خدمات</h2>
+
+        <h3>إن كنت بحاجة لأحد هذه الخدمات يسرني العمل معك</h3>
+        <div class="services-content">
+          <p class="service">تحويل التصميمات إلى صفحات ويب ثابتة تدعم جميع المتصفحات </p>
+          <p class="service">التطوير والتعديل على مواقع بلغة php, laravel framework</p>
+          <p class="service">تطوير مواقع من الصف بلغة php , laravel framework</p>
+          <p class="service">رفع موقعك على استضافات مناسبة</p>
+          <p class="service">تصميم وتجهيز صفحات الهبوط - Landing page</p>
+          <p class="service">الترويج لموقعك وزيادة عدد الزوار</p>
+          <p class="service">الترويج لمنتجاتك وزيادة المبيعات</p>
+        </div>
+      </section>
+
+      <!-- end services -->
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <script src="js/typed.min.js"></script>
+
+  <script src="js/karamportfolio.js"></script>
+</body>
+
+</html>

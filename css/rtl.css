@@ -1,0 +1,45 @@
+body {
+  direction: rtl;
+}
+
+.app .nav-bars {
+  right: inherit;
+  left: 10px;
+}
+.app nav {
+  left:inherit;
+  right: 0px;
+  transform: translateX(var(--nav-width));
+  -webkit-transform: translateX(var(--nav-width));
+  -moz-transform: translateX(var(--nav-width));
+  -ms-transform: translateX(var(--nav-width));
+  -o-transform: translateX(var(--nav-width));
+}
+@media (min-width: 768px) {
+  .app nav {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  .app .container {
+    margin-right: var(--nav-width);
+    margin-left: inherit;
+  }
+}
+.nav .links li a i {
+  margin-left: 15px;
+  margin-right: inherit;
+}
+
+
+.services .services-content .service {
+  margin-left: inherit;
+  margin-right: 50px;
+}
+
+.services .services-content .service::before{
+  left:inherit;
+  right: -50px;
+}

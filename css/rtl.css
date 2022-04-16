@@ -7,7 +7,7 @@ body {
   left: 10px;
 }
 .app nav {
-  left:inherit;
+  left: inherit;
   right: 0px;
   transform: translateX(var(--nav-width));
   -webkit-transform: translateX(var(--nav-width));
@@ -33,13 +33,21 @@ body {
   margin-right: inherit;
 }
 
-
 .services .services-content .service {
   margin-left: inherit;
   margin-right: 50px;
 }
 
-.services .services-content .service::before{
-  left:inherit;
+.services .services-content .service::before {
+  left: inherit;
   right: -50px;
+}
+
+.about .skills-content .skill-box .progress > span::after {
+  right: inherit;
+  left: -4px;
+}
+.about .skills-content .skill-box .progress > span::before {
+  right: inherit;
+  left: -13px;
 }

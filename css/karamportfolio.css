@@ -577,6 +577,7 @@ body {
   gap: 30px;
 }
 .services .services-content .service {
+  counter-increment: services;
   position: relative;
   color: var(--main-color);
   margin-left: 50px;
@@ -590,9 +591,10 @@ body {
   -o-transition: var(--main-translation);
 }
 .services .services-content .service::before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  content: "\f02d";
+  /* font-family: "Font Awesome 6 Free"; */
+  /* font-weight: 900; */
+  /* content: "\f02d"; */
+  content: counter(services);
   position: absolute;
   top: 0;
   left: -50px;
@@ -613,6 +615,7 @@ body {
   -moz-transition: var(--main-translation);
   -ms-transition: var(--main-translation);
   -o-transition: var(--main-translation);
+  cursor: pointer;
 }
 .services .services-content .service:hover {
   color: #13272e;

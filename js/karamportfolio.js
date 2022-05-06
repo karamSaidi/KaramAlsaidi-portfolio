@@ -40,7 +40,7 @@ function activeChange(index) {
       backDelay: 2000
     });
   }
-});
+})()
 
 
 
